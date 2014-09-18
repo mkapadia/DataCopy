@@ -19,10 +19,10 @@ public class ReadFile {
 			return;
 		}
 		
-		String outputDir = args[0];
+		String dirPath = args[0];
 		String host = args[1];
 		
-		processDir(outputDir, host);
+		processDir(dirPath, host);
 	}
 
 	private static void processDir(String dirPath, String host) throws IOException {
